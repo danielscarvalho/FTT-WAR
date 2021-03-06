@@ -25,5 +25,5 @@ Optional: real world setup:
 - Setup DNS public IP to your domain name
 - Setup SSL with Les't Encrypt - https://certbot.eff.org/lets-encrypt/ubuntubionic-other
 - Setup Tomcat remote admin
-- Deploy or WAR files (WEB APPs)
+- Deploy yor WAR files (WEB APPs)
 - Setup MySQL atabase on the same server (for learning) or as a service and persist your data
