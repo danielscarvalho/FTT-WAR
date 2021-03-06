@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/danielscarvalho/FTT-WAR/master/FTT-DEP.war
