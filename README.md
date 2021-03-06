@@ -14,3 +14,16 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
   <user username="role1" password="PASSWORD" roles="role1"/>
 ```
 ...
+
+Optional: real world setup:
+
+- Start a Linux server on the cloud (Azure, Amazon, Google, etc)
+- Connect to the Linux server by ssh
+- Install Java and Apache Tomcat
+- Setup firewall ports as appropriate
+- Register a domain name (± R$ 30.00)
+- Setup DNS public IP to your domain name
+- Setup SSL with Les't Encrypt - 
+- Setup Tomcat remote admin
+- Deploy or WAR files (WEB APPs)
+- Setup MySQL atabase on the same server (for learning) or as a service and persist your data
