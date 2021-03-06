@@ -23,7 +23,7 @@ Optional: real world setup:
 - Setup firewall ports as appropriate
 - Register a domain name (± R$ 30.00)
 - Setup DNS public IP to your domain name
-- Setup SSL with Les't Encrypt - 
+- Setup SSL with Les't Encrypt - https://certbot.eff.org/lets-encrypt/ubuntubionic-other
 - Setup Tomcat remote admin
 - Deploy or WAR files (WEB APPs)
 - Setup MySQL atabase on the same server (for learning) or as a service and persist your data
