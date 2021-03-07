@@ -15,7 +15,7 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 ```
 ...
 
-Optional: real world setup:
+*Optional*: real world setup:
 
 - Start a Linux server on the cloud (Azure, Amazon, Google, etc)
 - Connect to the Linux server by ssh
