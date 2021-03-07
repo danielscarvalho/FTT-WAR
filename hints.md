@@ -1,4 +1,4 @@
-#GiHub Hints
+# GiHub Hints
 
 - How to dowload a specific file from GitHub <br>
 https://raw.githubusercontent.com/[USER-NAME]/[REPOSITORY-NAME]/[BRANCH-NAME]/[FILE-PATH]
