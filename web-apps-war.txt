@@ -1,1 +1,3 @@
 https://raw.githubusercontent.com/danielscarvalho/FTT-WAR/master/FTT-DEP.war
+https://raw.githubusercontent.com/danielscarvalho/FTT-WAR/master/SampleWebApp.war
+https://raw.githubusercontent.com/danielscarvalho/FTT-WAR/master/sample.war
