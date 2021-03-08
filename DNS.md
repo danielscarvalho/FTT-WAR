@@ -13,6 +13,6 @@ Exemplo:
 Valendo:
 
 Para saber mais sobre DNS e registro de domínio:
-- https://en.wikipedia.org/wiki/Domain_Name_System
+- https://dnsmonitor.com/dns-tutorial-1-the-basics/
 - https://en.wikipedia.org/wiki/Domain_name
 - https://en.wikipedia.org/wiki/Domain_Name_System
