@@ -15,7 +15,7 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 ```
 ...
 
-*Optional*: real world setup:
+**Optional**: real world setup:
 
 - Start a Linux server on the cloud (Azure, Amazon, Google, etc)
 - Connect to the Linux server by ssh
@@ -26,4 +26,6 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 - Setup SSL with Les't Encrypt - https://certbot.eff.org/lets-encrypt/ubuntubionic-other
 - Setup Tomcat remote admin
 - Deploy yor WAR files (WEB APPs)
-- Setup MySQL atabase on the same server (for learning) or as a service and persist your data
+- Setup MySQL database on the same server (for learning), in a dedicated server, or as a service and persist your data
+
+> The cloud and the Internet are the labs!
