@@ -1,6 +1,8 @@
 # DNS
-## Domínio para testes "code.eng.br"
-### A Internet é o melhor laboratório!
+
+Domínio para testes "code.eng.br"
+
+A Internet é o melhor laboratório!
 
 Fazer fork e poll request com seu IP e para qual sub domínio
 
