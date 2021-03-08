@@ -15,3 +15,4 @@ Valendo:
 Para saber mais sobre DNS e registro de domínio:
 - https://en.wikipedia.org/wiki/Domain_Name_System
 - https://en.wikipedia.org/wiki/Domain_name
+- https://en.wikipedia.org/wiki/Domain_Name_System
