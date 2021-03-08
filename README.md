@@ -25,7 +25,7 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 - Setup DNS public IP to your domain name
 - Setup SSL with Les't Encrypt - https://certbot.eff.org/lets-encrypt/ubuntubionic-other
 - Setup Tomcat remote admin
-- Deploy yor WAR files (WEB APPs)
+- Deploy your WAR files (WEB APPs)
 - Setup MySQL database on the same server (for learning), in a dedicated server, or as a service and persist your data
 
 > The cloud and the Internet are the labs!
