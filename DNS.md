@@ -2,7 +2,7 @@
 
 Domínio para testes "code.eng.br"
 
-Fazer fork e poll request com seu IP e para qual sub domínio
+Fazer *fork* e *poll request* com seu IP e para qual sub domínio
 
 Exemplo:
 
