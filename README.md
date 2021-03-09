@@ -21,7 +21,7 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 - Connect to the Linux server by ssh
 - Install Java and Apache Tomcat
 - Setup firewall ports as appropriate
-- Register a domain name (± R$ 30.00)
+- Register a domain name (± R$ 30.00 year)
 - Setup DNS public IP to your domain name
 - Setup SSL with Les't Encrypt - https://certbot.eff.org/lets-encrypt/ubuntubionic-other
 - Setup Tomcat remote admin (JUST WITH SSL READY) 
