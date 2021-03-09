@@ -2,7 +2,7 @@
 
 Domínio para testes "code.eng.br"
 
-Fazer *fork* e *poll request* com seu IP e para qual sub domínio
+Fazer *fork* e *poll request* com seu sub domínio e o IP válido na Internet
 
 Exemplo:
 
@@ -11,6 +11,10 @@ Exemplo:
 - fox.code.eng.br 233.23.0.32
 
 Valendo:
+
+-
+-
+-
 
 Para saber mais sobre DNS e registro de domínio:
 - https://dnsmonitor.com/dns-tutorial-1-the-basics/
