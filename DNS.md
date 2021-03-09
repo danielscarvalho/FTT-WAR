@@ -2,8 +2,6 @@
 
 Domínio para testes "code.eng.br"
 
-A Internet é o melhor laboratório!
-
 Fazer fork e poll request com seu IP e para qual sub domínio
 
 Exemplo:
@@ -18,3 +16,5 @@ Para saber mais sobre DNS e registro de domínio:
 - https://dnsmonitor.com/dns-tutorial-1-the-basics/
 - https://en.wikipedia.org/wiki/Domain_name
 - https://en.wikipedia.org/wiki/Domain_Name_System
+
+> A Internet é o melhor laboratório!
