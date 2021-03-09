@@ -1,4 +1,4 @@
-# DNS
+# DNS - Domain Name System
 
 Domínio para testes "code.eng.br"
 
