@@ -8,19 +8,17 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 ...
 ```xml
   <role rolename="tomcat"/>
-  <role rolename="role1"/>
-  <user username="tomcat" password="PASSWORD" roles="tomcat,manager-gui,admin-gui"/>
-  <user username="both" password="PASSWORD" roles="tomcat,role1"/>
-  <user username="role1" password="PASSWORD" roles="role1"/>
+    <user username="tomcat" password="PASSWORD" roles="manager-gui,admin-gui"/>
+ 
 ```
 ...
 
-**Optional**: real world setup:
+__Optional__: real world setup:
 
 - Start a Linux server on the cloud (Azure, Amazon, Google, etc)
 - Connect to the Linux server by ssh
-- Install Java and Apache Tomcat
-- Setup firewall ports as appropriate
+- Install Java 11 (or more) and Apache Tomcat 9 (not 10 for now)
+- Setup firewall ports as appropriate (8080)
 - Register a domain name (± R$ 30.00 year)
 - Setup DNS public IP to your domain name
 - Setup SSL with Les't Encrypt - https://certbot.eff.org/lets-encrypt/ubuntubionic-other
