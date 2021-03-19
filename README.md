@@ -7,8 +7,11 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 
 ...
 ```xml
-  <role rolename="tomcat"/>
-    <user username="tomcat" password="PASSWORD" roles="manager-gui,admin-gui"/>
+<role rolename="manager-gui"/>
+<role rolename="admin-gui"/>
+<user username="tomcat" password="x6wqpw3QFm2Njv1J" roles="manager-gui,admin-gui"/>
+<!-- Do not set user name tomcat, admin, root set some not so obvious name
+    and a crazy long strong password  -->
  
 ```
 ...
