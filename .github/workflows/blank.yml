@@ -35,5 +35,5 @@ jobs:
           echo test, and deploy your project.
           
       - name: Load war to Tomcat
-        run: curl --upload-file sample.war "https://lab.code.eng.br/FTT-DEPLOYER?TOMCAT_USER=${{ secrets.TOMCAT_USER }}&TOMCAT_PWD=${{ secrets.TOMCAT_PWD }}&TOMCAT_TOKEN=${{ secrets.TOMCAT_TOKEN }}"
+        run: curl --upload-file sample.war "https://lab.code.eng.br:8080/FTT-WAR-DEPLOYER/wardeploy?TOMCAT_USER=${{ secrets.TOMCAT_USER }}&TOMCAT_PWD=${{ secrets.TOMCAT_PWD }}&TOMCAT_TOKEN=${{ secrets.TOMCAT_TOKEN }}"
 
