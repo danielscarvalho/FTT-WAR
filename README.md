@@ -23,7 +23,7 @@ __Optional__ - real world setup:
 - Install Java 11 (or more) and Apache Tomcat 9 (not 10 for now)
 - Setup firewall ports as appropriate (8080)
 - Register a domain name (± R$ 30.00 year)
-- Setup DNS public IP to your domain name
+- Setup DNS public IP to your domain name (setup subdomain)
 - Setup SSL with Les't Encrypt - https://certbot.eff.org/lets-encrypt/ubuntubionic-other
 - Setup the .pen SSL file at Apache Tomcat server.xml file...
 - Setup Tomcat remote admin (JUST WITH SSL READY) 
