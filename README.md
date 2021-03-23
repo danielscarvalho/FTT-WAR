@@ -31,3 +31,19 @@ __Optional__: real world setup:
 - Setup MySQL database on the same server (for learning), in a dedicated server, or as a service and persist your data
 
 > The cloud and the Internet are the labs!
+
+Configurar SSL Let's Encrypt no arquivo ../conf/server.xml
+
+<pre>
+<Connector port="8080" protocol="org.apache.coyote.http11.Http11NioProtocol"
+maxThreads="150" SSLEnabled="true">
+  <SSLHostConfig>
+	  <Certificate certificateFile="conf/ssl/cert.pem"
+		  certificateKeyFile="conf/ssl/privkey.pem"
+		  certificateChainFile="conf/ssl/chain.pem" />
+  </SSLHostConfig>
+</Connector>
+
+</pre>
+
+
