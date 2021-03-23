@@ -30,11 +30,9 @@ __Optional__: real world setup:
 - Deploy your WAR files (WEB APPs)
 - Setup MySQL database on the same server (for learning), in a dedicated server, or as a service and persist your data
 
-> The cloud and the Internet are the labs!
-
 Configurar SSL Let's Encrypt no arquivo ../conf/server.xml
 
-<pre>
+```xml
 <Connector port="8080" protocol="org.apache.coyote.http11.Http11NioProtocol"
 maxThreads="150" SSLEnabled="true">
   <SSLHostConfig>
@@ -43,7 +41,6 @@ maxThreads="150" SSLEnabled="true">
 		  certificateChainFile="conf/ssl/chain.pem" />
   </SSLHostConfig>
 </Connector>
+```xml
 
-</pre>
-
-
+> The cloud and the Internet are the labs!
