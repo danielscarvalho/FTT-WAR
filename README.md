@@ -41,6 +41,6 @@ maxThreads="150" SSLEnabled="true">
 		  certificateChainFile="conf/ssl/chain.pem" />
   </SSLHostConfig>
 </Connector>
-```xml
+```
 
 > The cloud and the Internet are the labs!
