@@ -30,7 +30,7 @@ __Optional__: real world setup:
 - Deploy your WAR files (WEB APPs)
 - Setup MySQL database on the same server (for learning), in a dedicated server, or as a service and persist your data
 
-Configurar SSL Let's Encrypt no arquivo ../conf/server.xml
+Configurar SSL Let's Encrypt no arquivo ../conf/server.xml (copiar arquivos .pem e ajustar permissões)
 
 ```xml
 <Connector port="8080" protocol="org.apache.coyote.http11.Http11NioProtocol"
