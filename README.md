@@ -27,7 +27,7 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 
 __Optional__ - real world setup:
 
-- Start a Linux server on the cloud (Azure, Amazon, Google, etc)
+- Start a Linux server on the cloud (Azure, Amazon, Google, Vultr, etc)
 - Connect to the Linux server by ssh (secure command line - [Filezilla](https://filezilla-project.org/) works too)
 - Install Java 11 (or more) and Apache Tomcat 9 (not 10 for now)
 - Setup firewall ports as appropriate (8080)
