@@ -3,7 +3,7 @@ Java sample WEB APPs in WAR files to deploy at Apache Tomcat
 
 - https://tomcat.apache.org/
 
-- Configuração no .profile
+- Configuração no .profile do Linux:
 
 ```
 export JAVA_HOME=/opt/jdk-17
