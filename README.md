@@ -53,4 +53,6 @@ maxThreads="150" SSLEnabled="true">
 </Connector>
 ```
 
+Hosting options: https://linuxhandbook.com/free-linux-cloud-servers/
+
 > The cloud and the Internet are the labs!
