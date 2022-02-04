@@ -3,6 +3,15 @@ Java sample WEB APPs in WAR files to deploy at Apache Tomcat
 
 - https://tomcat.apache.org/
 
+- Configuração no .profile
+
+```
+export JAVA_HOME=/opt/jdk-17
+export CATALINA_HOME=/opt/apache-tomcat-10
+export PATH=$PATH:$JAVA_HOME/bin:/opt/apache-maven-3.6.3/bin
+export CLASSPATH=$JAVA_HOME/lib:$CATALINA_HOME/lib
+```
+
 Configure the file "tomcat-users.xml" and set your PASSWORD, read all the documentation...
 
 ...
