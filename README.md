@@ -29,7 +29,7 @@ __Optional__ - real world setup:
 
 - Start a Linux server on the cloud (Azure, Amazon, Google, Vultr, etc)
 - Connect to the Linux server by ssh (secure command line - [Filezilla](https://filezilla-project.org/) works too)
-- Install Java 11 (or more) and Apache Tomcat 9 (not 10 for now)
+- Install Java 17 (or more) and Apache Tomcat 10
 - Setup firewall ports as appropriate (8080)
 - Register a domain name (± R$ 30.00 year)
 - Setup DNS public IP to your domain name (setup subdomain)
