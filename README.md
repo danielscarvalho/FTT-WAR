@@ -56,6 +56,7 @@ Configurar SSL Let's Encrypt no arquivo ../conf/server.xml (copiar arquivos .pem
 ```xml
 <Connector port="8080" protocol="org.apache.coyote.http11.Http11NioProtocol"
 maxThreads="150" SSLEnabled="true">
+  <UpgradeProtocol className="org.apache.coyote.http2.Http2Protocol" />
   <SSLHostConfig>
 	  <Certificate certificateFile="conf/ssl/cert.pem"
 		  certificateKeyFile="conf/ssl/privkey.pem"
