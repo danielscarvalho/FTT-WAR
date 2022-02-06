@@ -25,7 +25,7 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 ```
 ...
 
-Configure managment apps to ve accessed not only from 127.0.0.1 (localhost):
+Configure managment apps to be accessed not only from 127.0.0.1 (localhost):
 
 /webapps/manager/META-INF/context.xml<br>
 /webapps/host-manager/META-INF/context.xml
