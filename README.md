@@ -25,6 +25,17 @@ Configure the file "tomcat-users.xml" and set your PASSWORD, read all the docume
 ```
 ...
 
+Configure managment apps to ve accessed not only from 127.0.0.1 (localhost):
+
+/webapps/manager/META-INF/context.xml<br>
+/webapps/host-manager/META-INF/context.xml
+
+```
+<Valve className="org.apache.catalina.valves.RemoteAddrValve"
+         allow="\d+.\d+\.\d+\.\d+" />
+
+```
+
 __Optional__ - real world setup:
 
 - Start a Linux server on the cloud (Azure, Amazon, Google, Vultr, etc)
