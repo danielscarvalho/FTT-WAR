@@ -64,7 +64,7 @@ maxThreads="150" SSLEnabled="true">
   </SSLHostConfig>
 </Connector>
 ```
-There is another way to create a key for SSL without a third party, such as Let's Encrypt. You can do it with Java and self sign the key (at Linux):
+There is another way, more simple, to create a key for SSL without a third party, such as Let's Encrypt. You can do it with Java and self sign the key (at Linux):
 
 ```
 $JAVA_HOME/bin/keytool -genkey -alias tomcat -keyalg RSA
