@@ -30,7 +30,7 @@ Configure managment apps to be accessed not only from 127.0.0.1 (localhost):
 /webapps/manager/META-INF/context.xml<br>
 /webapps/host-manager/META-INF/context.xml
 
-```
+```xml
 <Valve className="org.apache.catalina.valves.RemoteAddrValve"
          allow="\d+.\d+\.\d+\.\d+" />
 
@@ -64,6 +64,36 @@ maxThreads="150" SSLEnabled="true">
   </SSLHostConfig>
 </Connector>
 ```
+There is another way to create a key for SSL without a third party, such as Let's Encrypt. You can do it with Java (at Linux):
+
+```
+$JAVA_HOME/bin/keytool -genkey -alias tomcat -keyalg RSA
+```
+
+at server.xml:
+
+```xml
+<!-- Define an SSL Coyote HTTP/1.1 Connector on port 8443 -->
+<Connector
+    protocol="org.apache.coyote.http11.Http11NioProtocol"
+    port="8080"
+    maxThreads="150"
+    SSLEnabled="true">
+  <SSLHostConfig>
+    <Certificate
+      certificateKeystoreFile="${user.home}/.keystore"
+      certificateKeystorePassword="changeit"
+      type="RSA"
+      />
+    </SSLHostConfig>
+</Connector>
+```
+
+
+This way you gonna have the encription, but an allert that it is not issued by an certification authority.
+
+More details at Tomcat docs: https://tomcat.apache.org/tomcat-10.0-doc/ssl-howto.html
+
 
 Hosting options: https://linuxhandbook.com/free-linux-cloud-servers/
 
