@@ -90,7 +90,7 @@ at server.xml:
 ```
 
 
-This way you gonna have the encription, but an allert that it is not issued by an certification authority.
+This way you are going to have the encryption, but an alert at the browser that it is not issued by a certification authority.
 
 More details at Tomcat docs: https://tomcat.apache.org/tomcat-10.0-doc/ssl-howto.html
 
