@@ -33,10 +33,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          run: ls -l
           
       - name: Load war to Tomcat
         #run: curl --upload-file sample.war "https://lab.code.eng.br:8080/FTT-WAR-DEPLOYER/wardeploy?TOMCAT_USER=${{ secrets.TOMCAT_USER }}&TOMCAT_PWD=${{ secrets.TOMCAT_PWD }}&TOMCAT_TOKEN=${{ secrets.TOMCAT_TOKEN }}"
         #run: curl https://lab.code.eng.br:8080/FTT-WAR-DEPLOYER/wardeploy?TOMCAT_USER=${{ secrets.TOMCAT_USER }}&TOMCAT_PWD=${{ secrets.TOMCAT_PWD }}&TOMCAT_TOKEN=${{ secrets.TOMCAT_TOKEN }}
-        run: curl --upload-file sample.war "https://${{ secrets.TOMCAT_USER }}:${{ secrets.TOMCAT_PWD }}@lab.code.eng.br:8080/manager/deploy?path=/sample"
+        run: curl --upload-file /sample.war "https://${{ secrets.TOMCAT_USER }}:${{ secrets.TOMCAT_PWD }}@lab.code.eng.br:8080/manager/deploy?path=/sample"
 
